@@ -1,0 +1,6 @@
+@LAB8CALIFICADO_HostAddress = http://localhost:5010
+
+GET {{LAB8CALIFICADO_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

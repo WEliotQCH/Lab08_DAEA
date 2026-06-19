@@ -263,3 +263,4 @@ C:\Users\usuario\RiderProjects\LAB8CALIFICADO\obj\Debug\net9.0\refint\LAB8CALIFI
 C:\Users\usuario\RiderProjects\LAB8CALIFICADO\obj\Debug\net9.0\LAB8CALIFICADO.pdb
 C:\Users\usuario\RiderProjects\LAB8CALIFICADO\obj\Debug\net9.0\LAB8CALIFICADO.genruntimeconfig.cache
 C:\Users\usuario\RiderProjects\LAB8CALIFICADO\obj\Debug\net9.0\ref\LAB8CALIFICADO.dll
+C:\Users\usuario\RiderProjects\LAB8CALIFICADO\obj\Debug\net9.0\LAB8CALIFICADO.sourcelink.json

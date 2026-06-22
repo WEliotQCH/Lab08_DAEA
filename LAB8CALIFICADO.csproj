@@ -21,7 +21,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Compile Include=".github\workflows\dotnet.yml" />
+      <Content Include=".github\workflows\dotnet.yml" />
     </ItemGroup>
 
 </Project>

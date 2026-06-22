@@ -15,7 +15,12 @@ builder.Services.AddSwaggerGen();
 
 // Configurar DbContext con MySQL
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-builder.Services.AddDbContext<LinqExampleContext>( );
+
+builder.Services.AddDbContext<LinqExampleContext>(options =>
+    options.UseMySql(
+        connectionString,
+        ServerVersion.AutoDetect(connectionString)
+    ));
 
 // Registrar repositorios
 builder.Services.AddScoped<IClientRepository, ClientRepository>();

@@ -52,4 +52,11 @@ app.MapControllers();
 var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
 app.Urls.Add($"http://0.0.0.0:{port}");
 
+// Endpoint temporal para pruebas
+app.MapGet("/test-config", (IConfiguration config) =>
+{
+    return Results.Ok(config.GetConnectionString("DefaultConnection"));
+});
+
+app.Run();
 app.Run();
